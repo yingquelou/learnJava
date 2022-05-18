@@ -7,6 +7,7 @@ public class learnGetDataFromConsole {
     int x;
     if (sc.hasNextInt());
     x = sc.nextInt();
+    sc.close();
     System.out.println("The number is " + x + '。');
   }
 }
